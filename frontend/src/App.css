@@ -1,0 +1,75 @@
+/* ================= Profile Page Custom Styles ================= */ /* เพิ่มใหม่ */
+.profile-container { /* เพิ่มใหม่ */
+	background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%); /* ปรับจากเดิม */
+	color: #22223b; /* ปรับจากเดิม */
+	border-radius: 18px; /* ปรับจากเดิม */
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15); /* เพิ่มใหม่ */
+	padding: 2rem 2.5rem; /* ปรับจากเดิม */
+	margin: 2rem auto; /* ปรับจากเดิม */
+	max-width: 600px; /* ปรับจากเดิม */
+}
+
+.profile-title { /* เพิ่มใหม่ */
+	color: #3b3b5b; /* ปรับจากเดิม */
+	font-size: 1.5rem; /* ปรับจากเดิม */
+	font-weight: 700; /* ปรับจากเดิม */
+}
+
+.profile-label { /* เพิ่มใหม่ */
+	color: #4f4f6e; /* ปรับจากเดิม */
+	font-weight: 600; /* ปรับจากเดิม */
+}
+
+.profile-input, .profile-select { /* เพิ่มใหม่ */
+	background: #f4f6fb; /* ปรับจากเดิม */
+	color: #22223b; /* ปรับจากเดิม */
+	border: 1.5px solid #bfc6e0; /* ปรับจากเดิม */
+	border-radius: 8px; /* ปรับจากเดิม */
+	box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.07); /* เพิ่มใหม่ */
+	padding: 0.7rem 1rem; /* ปรับจากเดิม */
+	margin-bottom: 1rem; /* ปรับจากเดิม */
+	transition: box-shadow 0.2s, border 0.2s; /* เพิ่มใหม่ */
+}
+.profile-input:focus, .profile-select:focus { /* เพิ่มใหม่ */
+	border: 1.5px solid #6366f1; /* ปรับจากเดิม */
+	box-shadow: 0 0 0 2px #a5b4fc; /* เพิ่มใหม่ */
+}
+
+.profile-btn, .profile-btn-cancel, .profile-btn-logout { /* เพิ่มใหม่ */
+	border-radius: 8px; /* ปรับจากเดิม */
+	font-weight: 600; /* ปรับจากเดิม */
+	box-shadow: 0 4px 16px 0 rgba(99, 102, 241, 0.13); /* เพิ่มใหม่ */
+	transition: box-shadow 0.2s, background 0.2s, color 0.2s; /* เพิ่มใหม่ */
+}
+.profile-btn { /* เพิ่มใหม่ */
+	background: linear-gradient(90deg, #4f8cff 0%, #6366f1 100%); /* ปรับจากเดิม */
+	color: #fff; /* ปรับจากเดิม */
+	padding: 0.6rem 1.5rem; /* ปรับจากเดิม */
+	border: none; /* ปรับจากเดิม */
+}
+.profile-btn:hover { /* เพิ่มใหม่ */
+	background: linear-gradient(90deg, #6366f1 0%, #4f8cff 100%); /* ปรับจากเดิม */
+	box-shadow: 0 6px 24px 0 rgba(99, 102, 241, 0.18); /* เพิ่มใหม่ */
+}
+.profile-btn-cancel { /* เพิ่มใหม่ */
+	background: #fff; /* ปรับจากเดิม */
+	color: #6366f1; /* ปรับจากเดิม */
+	border: 1.5px solid #6366f1; /* ปรับจากเดิม */
+	padding: 0.6rem 1.5rem; /* ปรับจากเดิม */
+}
+.profile-btn-cancel:hover { /* เพิ่มใหม่ */
+	background: #f1f5ff; /* ปรับจากเดิม */
+	color: #22223b; /* ปรับจากเดิม */
+}
+.profile-btn-logout { /* เพิ่มใหม่ */
+	background: linear-gradient(90deg, #ff5f6d 0%, #ffc371 100%); /* ปรับจากเดิม */
+	color: #fff; /* ปรับจากเดิม */
+	padding: 0.6rem 1.5rem; /* ปรับจากเดิม */
+	border: none; /* ปรับจากเดิม */
+	margin-top: 1.5rem; /* ปรับจากเดิม */
+}
+.profile-btn-logout:hover { /* เพิ่มใหม่ */
+	background: linear-gradient(90deg, #ffc371 0%, #ff5f6d 100%); /* ปรับจากเดิม */
+	box-shadow: 0 6px 24px 0 rgba(255, 95, 109, 0.18); /* เพิ่มใหม่ */
+}
+/* ================= End Profile Page Custom Styles ================= */ /* เพิ่มใหม่ */
